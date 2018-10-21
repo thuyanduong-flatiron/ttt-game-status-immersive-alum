@@ -40,3 +40,6 @@ def full?(board)
     space == " "
   end
 end
+
+def draw?(board)
+end
