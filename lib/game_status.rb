@@ -36,5 +36,7 @@ def won?(board)
 end
 
 def full?(board)
-  board.any?
+  !board.any? do |space|
+    space == " "
+  end
 end
