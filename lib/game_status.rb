@@ -36,10 +36,9 @@ def won?(board)
 end
 
 def full?(board)
-  board.all? do |space|
-    space != " "
-  end
+  board.includes?(" ")
 end
 
 def draw?(board)
+  
 end
