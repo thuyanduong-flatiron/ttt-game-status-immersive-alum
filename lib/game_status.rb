@@ -46,3 +46,10 @@ end
 def over?(board)
   won?(board) || draw?(board) || full?(board)
 end
+
+def winner(board)
+  retVal = nil
+  if won?(board)
+  end
+  retVal
+end
