@@ -50,7 +50,7 @@ end
 def winner(board)
   retVal = nil
   if won?(board)
-    retVal = won?(board)[0]
+    retVal = board[won?(board)[0]]
   end
   retVal
 end
